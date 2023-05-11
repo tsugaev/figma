@@ -1,0 +1,472 @@
+.button__outline {
+  font-size: 18px;
+  color: #f7941e;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  padding: 14px 24px;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button__default {
+  background-color: #f7941e;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 0;
+  padding: 14px 24px;
+  cursor: pointer;
+}
+.button__default:hover {
+  background-color: white;
+  color: #f7941e;
+}
+
+.button__outline:hover {
+  background-color: #f7941e;
+  color: white;
+}
+
+/* ---------------------------------------------- */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0px;
+}
+.logo {
+  margin-left: 80px;
+}
+body {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 330px;
+  width: 100%;
+}
+.nav__link {
+  font-size: 18px;
+  color: #000000;
+  text-decoration: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.nav__link:hover {
+  color: #f7941e;
+}
+.findGift__wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+.img_blok_1 img{
+  display: block;
+}
+.findGift__upper__wrapper {
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  background-color: #f1f1f2;
+}
+.blok__text {
+  max-width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: start;
+}
+.upper__text {
+  color: #000000;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 65px;
+  margin-top: 154px;
+  margin-right: 126px;
+  margin-bottom: 36px;
+  margin-left: 162px;
+
+}
+.lower__text {
+  font-size: 20px;
+  margin-right: 137px;
+  margin-left: 162px;
+  color: #000000;
+}
+
+.button_1_blok {
+  background: #f7941e;
+  width: 200px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: 52px;
+  border-radius: 5px;
+}
+
+.button_1_text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 auto;
+}
+.img_blok_1 {
+  width: 50%;
+}
+.img_blok_1 img {
+  width: 100%;
+  height: 100%;
+}
+.fingGiftButton{
+  margin-top: 52px;
+  margin-bottom: 126px;
+  margin-left: 162px;
+    width: 200px;
+  height: 60px;
+}
+
+.fingGiftButton {
+  margin-top: 52px;
+}
+
+.findGift__lower__wrapper {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f2;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.lower__wrapper__title {
+  font-size: 32px;
+  margin-bottom: 23px;
+}
+.lower__wrapper__text1 {
+  font-size: 20px;
+  align-items: center;
+}
+.lower__wrapper__img {
+  width: 50%;
+}
+.lower__wrapper__img img {
+  width: 100%;
+  height: 100%;
+}
+.lower__wrapper__text {
+  max-width: 440px;
+  margin: 0 auto;
+}
+.learnMore {
+  margin-top: 35px;
+  padding: 21px 47px;
+}
+
+.occasions {
+  width: 100%;
+  margin: 0 auto;
+}
+.occasions_title {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.occasions_text {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 23px;
+}
+
+.birthday_card_name {
+  font-size: 20px;
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 118px;
+}
+
+.occasions_card {
+  margin-top: 64px;
+  background-color: #fafafa;
+  transition: 0.2s;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.occasions_card:hover {
+  filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
+}
+.seeMore {
+  margin-bottom: 24px;
+  margin-left: 24px;
+  margin-right: 179px;
+  cursor: pointer;
+}
+
+.occasions__card__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.readyStarted {
+  align-items: center;
+  justify-content: space-evenly;
+  height: 240px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #f7941e;
+  max-width: 100%;
+}
+
+.ready__text1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.ready__text2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.press1 {
+  background-color: #000000;
+  color: white;
+  margin-right: 16px;
+}
+.press2 {
+  background-color: #f7941e;
+  color: black;
+  border: 1px solid;
+}
+
+.ready_blok2 {
+  display: flex;
+  flex-direction: row;
+}
+.occasions {
+  height: 820px;
+}
+
+.ourBest {
+  align-items: center;
+  flex-direction: column;
+  height: 1026px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.ourBest__text1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 88px;
+}
+.ourBest__text2 {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.ourBest__card {
+  width: 1170px;
+  height: 370px;
+  background-color: #231f20;
+  margin-top: 71px;
+  display: flex;
+  align-items: center;
+}
+
+.ourBest_card_text1 {
+  color: white;
+  font-size: 14px;
+  margin-top: 63px;
+  margin-bottom: 27px;
+  margin-left: 78px;
+}
+.ourBest_card_text2 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 60px;
+  margin-left: 78px;
+}
+.ourBest_card_text3 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 49px;
+  margin-left: 78px;
+  cursor: pointer;
+}
+
+.ourBestcardtext {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+.ourBest_card_img {
+  margin-top: 5px;
+}
+
+.ourBest_lower_card {
+  width: 1170px;
+  height: 290px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.lower_card1_text1 {
+  font-size: 24px;
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  font-weight: 600;
+}
+.lower_card1_text2 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.lower_card1_text3 {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.lower_card2_text1 {
+  font-size: 24px;
+  margin-top: 48px;
+  margin-left: 48px;
+  margin-right: 48px;
+  font-weight: 600;
+}
+.lower_card2_text2 {
+  font-size: 18px;
+  margin-top: 16px;
+  margin-left: 48px;
+  margin-right: 48px;
+}
+.lower_card2_text3 {
+  font-size: 14px;
+  margin-top: 16px;
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.lower_card1 {
+  width: 570px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.lower_card2 {
+  width: 570px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.lower_card2:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.lower_card1:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+.footer {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer_links {
+  display: flex;
+  width: 615px;
+  justify-content: space-between;
+}
+
+.footer_link1 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 115px;
+}
+.footer_link2 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 115px;
+}
+.footer_link3 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 115px;
+}
+.footer_link4 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #000000;
+  margin-top: 115px;
+}
+.footer_img {
+  margin-top: 106px;
+}
+.divider {
+  margin-top: 53px;
+}
+.footer_icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icon1 {
+  margin-right: 26px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.icon2 {
+  margin-right: 26px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.icon3 {
+  margin-right: 26px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.icon4 {
+  margin-right: 26px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+.icon5 {
+  margin-right: 26px;
+  margin-top: 55px;
+  cursor: pointer;
+}
+
+.footer_text {
+  margin-top: 72px;
+  font-size: 14px;
+}
